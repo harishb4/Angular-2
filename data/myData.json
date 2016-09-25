@@ -1,0 +1,38 @@
+[{
+	"name": "Stanley",
+	"job": "Java Developer",
+	"experience": 5,
+	"contact": "6047163984",
+	"image": "content/img/stanley.jpg"
+}, {
+	"name": "Ridley",
+	"job": "Front End Developer",
+	"experience": 4,
+	"contact": "6047963989",
+	"image": "content/img/ridley.jpg"
+}, {
+	"name": "Nolan",
+	"job": ".Net Developer",
+	"experience": 6,
+	"contact": "6047663986",
+	"image": "content/img/chris.jpg"
+}, {
+	"name": "Fincher",
+	"job": "Networking",
+	"experience": 4,
+	"contact": "6047963989",
+	"image": "content/img/fincher.jpg"
+}, {
+	"name": "Kathryn",
+	"job": "Back End Developer",
+	"experience": 7,
+	"contact": "6047963989",
+	"image": "content/img/kathryn.jpg"
+}, {
+	"name": "Allen",
+	"job": "Full Stack Developer",
+	"experience": 6,
+	"contact": "6047963989",
+	"image": "content/img/woody.jpg"
+}
+]

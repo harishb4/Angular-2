@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="myApp">
+<head>
+      <meta charset="UTF-8">
+      <title>Website</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="app/lib/angular.min.js"></script>
+      <script src="app/lib/angular-route.min.js"></script>
+      <script src="app/lib/angular-animate.min.js"></script>
+      <script src="app/app.js"></script>
+      <link rel="stylesheet" href="content/css/styles.css">
+</head>
+<body ng-controller="jobs">
+
+        <header>
+          <ng-include src="'header.html'"></ng-include>
+        </header>
+        <main ng-view></main>
+
+</body>
+</html>

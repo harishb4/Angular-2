@@ -1,0 +1,24 @@
+<div class="content">
+  <button ng-click="order='name'">Order By Experience</button>
+  <button ng-click="order='-experience'">Order By Name</button>
+  <input type="text" placeholder="enter job title" ng-model="search">
+  <ul id="jobs-list">
+    <li ng-repeat="x in jobs | orderBy: order | filter: search">
+      <img style="float:left;margin-right:10px;" ng-src="{{x.image}}" />
+      <h3>{{x.name}} <span id="exp">{{x.experience}}</span> {{x.contact}} </h3>
+      <div class="remove" ng-click="rmJob(x)">x</div>
+      <span>{{x.job}}</span>
+    </li>
+  </ul>
+
+  <form ng-submit="addJob()">
+
+    <input type="text" placeholder="Enter Name" ng-model="newJob.name" />
+    <input type="text" placeholder="Enter Job" ng-model="newJob.job" />
+    <input type="text" placeholder="Enter Contact Number" ng-model="newJob.contact" />
+    <input type="number" placeholder="Enter Experience" ng-model="newJob.experience" />
+    <input type="submit" value="Add To Database" />
+
+  </form>
+  <a href="" ng-click="removeAll()">Remove all sources</a>
+</div>
